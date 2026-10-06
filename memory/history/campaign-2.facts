@@ -1,0 +1,350 @@
+# Campaign 2: what the discovery group screened before this loop (synthetic).
+R-001 | tested | L-1 | R-001 ran a express assay on 80 variants of L-1 in pEX-01 at 30 °C, 0.2 mM, on 2026-09-21, over 1 plate(s). the parent library, in the standard vector
+R-001 | result | 67 of 80 assayed | R-001: 67 of 80 variants gave a reading, median yield_mg_l 31.50; 13 did not (an internal BsaI site, which is pEX-01's own cloning site).
+R-001 | informs | L-1 | R-001 informs L-1: its 67 express readings in pEX-01 at 30 °C, 0.2 mM ran from 11.20 to 49.70 yield_mg_l, median 31.50.
+V-101 | has | ExpressionValidated | V-101 read 41.10 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-102 | has | CloningFailed | V-102 gave no express reading in R-001: an internal BsaI site, which is pEX-01's own cloning site.
+V-103 | has | LowYield | V-103 read 13.50 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-104 | has | ExpressionValidated | V-104 read 27.00 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-105 | has | ExpressionValidated | V-105 read 37.90 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-106 | has | CloningFailed | V-106 gave no express reading in R-001: an internal BsaI site, which is pEX-01's own cloning site.
+V-107 | has | ExpressionValidated | V-107 read 38.40 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-108 | has | ExpressionValidated | V-108 read 37.50 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-109 | has | ExpressionValidated | V-109 read 43.50 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-110 | has | ExpressionValidated | V-110 read 40.40 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-111 | has | LowYield | V-111 read 12.90 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-112 | has | ExpressionValidated | V-112 read 37.30 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-113 | has | ExpressionValidated | V-113 read 42.30 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-114 | has | ExpressionValidated | V-114 read 35.00 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-115 | has | ExpressionValidated | V-115 read 33.80 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-116 | has | ExpressionValidated | V-116 read 44.00 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-117 | has | ExpressionValidated | V-117 read 31.50 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-118 | has | ExpressionValidated | V-118 read 41.80 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-119 | has | ExpressionValidated | V-119 read 25.50 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-120 | has | LowYield | V-120 read 17.10 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-121 | has | ExpressionValidated | V-121 read 33.60 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-122 | has | CloningFailed | V-122 gave no express reading in R-001: an internal BsaI site, which is pEX-01's own cloning site.
+V-123 | has | CloningFailed | V-123 gave no express reading in R-001: an internal BsaI site, which is pEX-01's own cloning site.
+V-124 | has | ExpressionValidated | V-124 read 25.90 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-125 | has | CloningFailed | V-125 gave no express reading in R-001: an internal BsaI site, which is pEX-01's own cloning site.
+V-126 | has | CloningFailed | V-126 gave no express reading in R-001: an internal BsaI site, which is pEX-01's own cloning site.
+V-127 | has | ExpressionValidated | V-127 read 39.00 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-128 | has | ExpressionValidated | V-128 read 33.20 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-129 | has | CloningFailed | V-129 gave no express reading in R-001: an internal BsaI site, which is pEX-01's own cloning site.
+V-130 | has | LowYield | V-130 read 16.60 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-131 | has | ExpressionValidated | V-131 read 28.70 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-132 | has | CloningFailed | V-132 gave no express reading in R-001: an internal BsaI site, which is pEX-01's own cloning site.
+V-133 | has | ExpressionValidated | V-133 read 41.10 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-134 | has | LowYield | V-134 read 16.40 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-135 | has | ExpressionValidated | V-135 read 35.30 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-136 | has | ExpressionValidated | V-136 read 49.70 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-137 | has | ExpressionValidated | V-137 read 31.50 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-138 | has | CloningFailed | V-138 gave no express reading in R-001: an internal BsaI site, which is pEX-01's own cloning site.
+V-139 | has | ExpressionValidated | V-139 read 38.10 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-140 | has | ExpressionValidated | V-140 read 28.90 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-141 | has | ExpressionValidated | V-141 read 38.50 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-142 | has | ExpressionValidated | V-142 read 29.60 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-143 | has | CloningFailed | V-143 gave no express reading in R-001: an internal BsaI site, which is pEX-01's own cloning site.
+V-144 | has | ExpressionValidated | V-144 read 36.70 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-145 | has | LowYield | V-145 read 19.90 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-146 | has | CloningFailed | V-146 gave no express reading in R-001: an internal BsaI site, which is pEX-01's own cloning site.
+V-147 | has | ExpressionValidated | V-147 read 35.20 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-148 | has | ExpressionValidated | V-148 read 38.00 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-149 | has | ExpressionValidated | V-149 read 31.90 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-150 | has | ExpressionValidated | V-150 read 29.50 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-151 | has | LowYield | V-151 read 18.90 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-152 | has | LowYield | V-152 read 11.20 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-153 | has | LowYield | V-153 read 15.00 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-154 | has | ExpressionValidated | V-154 read 26.80 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-155 | has | ExpressionValidated | V-155 read 32.30 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-156 | has | LowYield | V-156 read 13.70 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-157 | has | ExpressionValidated | V-157 read 36.40 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-158 | has | ExpressionValidated | V-158 read 38.20 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-159 | has | ExpressionValidated | V-159 read 37.40 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-160 | has | ExpressionValidated | V-160 read 23.50 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-161 | has | LowYield | V-161 read 16.10 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-162 | has | ExpressionValidated | V-162 read 42.10 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-163 | has | ExpressionValidated | V-163 read 27.90 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-164 | has | ExpressionValidated | V-164 read 27.20 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-165 | has | LowYield | V-165 read 16.20 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-166 | has | CloningFailed | V-166 gave no express reading in R-001: an internal BsaI site, which is pEX-01's own cloning site.
+V-167 | has | ExpressionValidated | V-167 read 34.10 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-168 | has | LowYield | V-168 read 18.30 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-169 | has | ExpressionValidated | V-169 read 26.00 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-170 | has | ExpressionValidated | V-170 read 29.90 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-171 | has | CloningFailed | V-171 gave no express reading in R-001: an internal BsaI site, which is pEX-01's own cloning site.
+V-172 | has | LowYield | V-172 read 16.30 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-173 | has | LowYield | V-173 read 16.60 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-174 | has | ExpressionValidated | V-174 read 35.50 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-175 | has | ExpressionValidated | V-175 read 35.70 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-176 | has | ExpressionValidated | V-176 read 26.10 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-177 | has | ExpressionValidated | V-177 read 28.40 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-178 | has | LowYield | V-178 read 14.60 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-179 | has | LowYield | V-179 read 12.90 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+V-180 | has | ExpressionValidated | V-180 read 40.00 yield_mg_l in R-001 (pEX-01 at 30 °C, 0.2 mM).
+R-002 | tested | L-1 | R-002 ran a binding assay on 15 variants of L-1 in pEX-01, on 2026-09-22, over 1 plate(s). the first fifteen of L-1 that expressed
+R-002 | result | 15 of 15 assayed | R-002: 15 of 15 variants gave a reading, median kd_nm 16.85.
+R-002 | informs | L-1 | R-002 informs L-1: its 15 binding readings in pEX-01 ran from 3.97 to 53.33 kd_nm, median 16.85.
+V-101 | binds | Kinase TK-7 | V-101 bound Kinase TK-7 at 53.33 nM in R-002, measured from a pEX-01 construct.
+V-104 | binds | Kinase TK-7 | V-104 bound Kinase TK-7 at 3.97 nM in R-002, measured from a pEX-01 construct.
+V-105 | binds | Kinase TK-7 | V-105 bound Kinase TK-7 at 12.05 nM in R-002, measured from a pEX-01 construct.
+V-107 | binds | Kinase TK-7 | V-107 bound Kinase TK-7 at 25.77 nM in R-002, measured from a pEX-01 construct.
+V-108 | binds | Kinase TK-7 | V-108 bound Kinase TK-7 at 42.56 nM in R-002, measured from a pEX-01 construct.
+V-109 | binds | Kinase TK-7 | V-109 bound Kinase TK-7 at 31.13 nM in R-002, measured from a pEX-01 construct.
+V-110 | binds | Kinase TK-7 | V-110 bound Kinase TK-7 at 15.60 nM in R-002, measured from a pEX-01 construct.
+V-112 | binds | Kinase TK-7 | V-112 bound Kinase TK-7 at 14.63 nM in R-002, measured from a pEX-01 construct.
+V-113 | binds | Kinase TK-7 | V-113 bound Kinase TK-7 at 41.28 nM in R-002, measured from a pEX-01 construct.
+V-114 | binds | Kinase TK-7 | V-114 bound Kinase TK-7 at 16.21 nM in R-002, measured from a pEX-01 construct.
+V-115 | binds | Kinase TK-7 | V-115 bound Kinase TK-7 at 14.61 nM in R-002, measured from a pEX-01 construct.
+V-116 | binds | Kinase TK-7 | V-116 bound Kinase TK-7 at 42.53 nM in R-002, measured from a pEX-01 construct.
+V-117 | binds | Kinase TK-7 | V-117 bound Kinase TK-7 at 16.85 nM in R-002, measured from a pEX-01 construct.
+V-118 | binds | Kinase TK-7 | V-118 bound Kinase TK-7 at 33.89 nM in R-002, measured from a pEX-01 construct.
+V-119 | binds | Kinase TK-7 | V-119 bound Kinase TK-7 at 7.59 nM in R-002, measured from a pEX-01 construct.
+R-003 | tested | L-1 | R-003 ran a thermal assay on 50 variants of L-1 in pEX-01, on 2026-09-24, over 1 plate(s). everything of L-1 that expressed
+R-003 | result | 50 of 50 assayed | R-003: 50 of 50 variants gave a reading, median tm_c 56.40.
+R-003 | informs | L-1 | R-003 informs L-1: its 50 thermal readings in pEX-01 ran from 49.70 to 62.40 tm_c, median 56.40.
+V-101 | has | ThermostableHit | V-101 read 60.00 tm_c in R-003 (pEX-01).
+V-104 | has | ThermalScreened | V-104 read 49.70 tm_c in R-003 (pEX-01).
+V-105 | has | ThermalScreened | V-105 read 55.00 tm_c in R-003 (pEX-01).
+V-107 | has | ThermalScreened | V-107 read 56.80 tm_c in R-003 (pEX-01).
+V-108 | has | ThermostableHit | V-108 read 62.20 tm_c in R-003 (pEX-01).
+V-109 | has | ThermostableHit | V-109 read 60.80 tm_c in R-003 (pEX-01).
+V-110 | has | ThermalScreened | V-110 read 55.50 tm_c in R-003 (pEX-01).
+V-112 | has | ThermalScreened | V-112 read 53.90 tm_c in R-003 (pEX-01).
+V-113 | has | ThermalScreened | V-113 read 59.90 tm_c in R-003 (pEX-01).
+V-114 | has | ThermalScreened | V-114 read 56.60 tm_c in R-003 (pEX-01).
+V-115 | has | ThermalScreened | V-115 read 57.50 tm_c in R-003 (pEX-01).
+V-116 | has | ThermostableHit | V-116 read 60.30 tm_c in R-003 (pEX-01).
+V-117 | has | ThermalScreened | V-117 read 57.10 tm_c in R-003 (pEX-01).
+V-118 | has | ThermalScreened | V-118 read 59.70 tm_c in R-003 (pEX-01).
+V-119 | has | ThermalScreened | V-119 read 54.70 tm_c in R-003 (pEX-01).
+V-121 | has | ThermalScreened | V-121 read 56.60 tm_c in R-003 (pEX-01).
+V-124 | has | ThermalScreened | V-124 read 51.30 tm_c in R-003 (pEX-01).
+V-127 | has | ThermalScreened | V-127 read 59.10 tm_c in R-003 (pEX-01).
+V-128 | has | ThermalScreened | V-128 read 52.40 tm_c in R-003 (pEX-01).
+V-131 | has | ThermalScreened | V-131 read 49.90 tm_c in R-003 (pEX-01).
+V-133 | has | ThermostableHit | V-133 read 62.00 tm_c in R-003 (pEX-01).
+V-135 | has | ThermalScreened | V-135 read 56.40 tm_c in R-003 (pEX-01).
+V-136 | has | ThermostableHit | V-136 read 60.40 tm_c in R-003 (pEX-01).
+V-137 | has | ThermalScreened | V-137 read 53.60 tm_c in R-003 (pEX-01).
+V-139 | has | ThermalScreened | V-139 read 59.90 tm_c in R-003 (pEX-01).
+V-140 | has | ThermalScreened | V-140 read 53.90 tm_c in R-003 (pEX-01).
+V-141 | has | ThermostableHit | V-141 read 61.50 tm_c in R-003 (pEX-01).
+V-142 | has | ThermalScreened | V-142 read 51.70 tm_c in R-003 (pEX-01).
+V-144 | has | ThermostableHit | V-144 read 61.00 tm_c in R-003 (pEX-01).
+V-147 | has | ThermostableHit | V-147 read 60.40 tm_c in R-003 (pEX-01).
+V-148 | has | ThermalScreened | V-148 read 57.60 tm_c in R-003 (pEX-01).
+V-149 | has | ThermalScreened | V-149 read 56.30 tm_c in R-003 (pEX-01).
+V-150 | has | ThermalScreened | V-150 read 56.00 tm_c in R-003 (pEX-01).
+V-154 | has | ThermalScreened | V-154 read 50.40 tm_c in R-003 (pEX-01).
+V-155 | has | ThermalScreened | V-155 read 56.00 tm_c in R-003 (pEX-01).
+V-157 | has | ThermalScreened | V-157 read 59.80 tm_c in R-003 (pEX-01).
+V-158 | has | ThermalScreened | V-158 read 57.10 tm_c in R-003 (pEX-01).
+V-159 | has | ThermalScreened | V-159 read 52.60 tm_c in R-003 (pEX-01).
+V-160 | has | ThermalScreened | V-160 read 49.70 tm_c in R-003 (pEX-01).
+V-162 | has | ThermalScreened | V-162 read 57.70 tm_c in R-003 (pEX-01).
+V-163 | has | ThermalScreened | V-163 read 54.50 tm_c in R-003 (pEX-01).
+V-164 | has | ThermalScreened | V-164 read 55.40 tm_c in R-003 (pEX-01).
+V-167 | has | ThermalScreened | V-167 read 52.20 tm_c in R-003 (pEX-01).
+V-169 | has | ThermalScreened | V-169 read 55.20 tm_c in R-003 (pEX-01).
+V-170 | has | ThermalScreened | V-170 read 56.10 tm_c in R-003 (pEX-01).
+V-174 | has | ThermalScreened | V-174 read 55.80 tm_c in R-003 (pEX-01).
+V-175 | has | ThermalScreened | V-175 read 57.80 tm_c in R-003 (pEX-01).
+V-176 | has | ThermalScreened | V-176 read 53.20 tm_c in R-003 (pEX-01).
+V-177 | has | ThermalScreened | V-177 read 52.80 tm_c in R-003 (pEX-01).
+V-180 | has | ThermostableHit | V-180 read 62.40 tm_c in R-003 (pEX-01).
+R-004 | tested | L-2 | R-004 ran a express assay on 80 variants of L-2 in pEX-01 at 30 °C, 0.2 mM, on 2026-09-28, over 1 plate(s). the affinity-matured library, in the standard vector
+R-004 | result | 71 of 80 assayed | R-004: 71 of 80 variants gave a reading, median yield_mg_l 23.00; 9 did not (an internal BsaI site, which is pEX-01's own cloning site).
+R-004 | informs | L-2 | R-004 informs L-2: its 71 express readings in pEX-01 at 30 °C, 0.2 mM ran from 9.40 to 35.00 yield_mg_l, median 23.00.
+V-201 | has | LowYield | V-201 read 10.70 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-202 | has | LowYield | V-202 read 11.40 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-203 | has | ExpressionValidated | V-203 read 21.30 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-204 | has | LowYield | V-204 read 12.60 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-205 | has | ExpressionValidated | V-205 read 24.60 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-206 | has | CloningFailed | V-206 gave no express reading in R-004: an internal BsaI site, which is pEX-01's own cloning site.
+V-207 | has | ExpressionValidated | V-207 read 25.20 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-208 | has | ExpressionValidated | V-208 read 25.20 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-209 | has | CloningFailed | V-209 gave no express reading in R-004: an internal BsaI site, which is pEX-01's own cloning site.
+V-210 | has | ExpressionValidated | V-210 read 29.90 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-211 | has | LowYield | V-211 read 12.30 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-212 | has | ExpressionValidated | V-212 read 20.30 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-213 | has | ExpressionValidated | V-213 read 29.00 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-214 | has | ExpressionValidated | V-214 read 30.00 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-215 | has | ExpressionValidated | V-215 read 22.70 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-216 | has | ExpressionValidated | V-216 read 20.90 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-217 | has | CloningFailed | V-217 gave no express reading in R-004: an internal BsaI site, which is pEX-01's own cloning site.
+V-218 | has | LowYield | V-218 read 15.60 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-219 | has | ExpressionValidated | V-219 read 28.60 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-220 | has | ExpressionValidated | V-220 read 28.50 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-221 | has | LowYield | V-221 read 10.40 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-222 | has | ExpressionValidated | V-222 read 25.70 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-223 | has | ExpressionValidated | V-223 read 30.80 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-224 | has | ExpressionValidated | V-224 read 24.60 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-225 | has | ExpressionValidated | V-225 read 27.20 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-226 | has | LowYield | V-226 read 12.60 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-227 | has | ExpressionValidated | V-227 read 25.00 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-228 | has | CloningFailed | V-228 gave no express reading in R-004: an internal BsaI site, which is pEX-01's own cloning site.
+V-229 | has | LowYield | V-229 read 9.40 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-230 | has | ExpressionValidated | V-230 read 22.70 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-231 | has | ExpressionValidated | V-231 read 26.50 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-232 | has | LowYield | V-232 read 12.10 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-233 | has | LowYield | V-233 read 11.20 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-234 | has | ExpressionValidated | V-234 read 24.90 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-235 | has | ExpressionValidated | V-235 read 27.00 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-236 | has | ExpressionValidated | V-236 read 35.00 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-237 | has | ExpressionValidated | V-237 read 24.10 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-238 | has | ExpressionValidated | V-238 read 21.50 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-239 | has | ExpressionValidated | V-239 read 27.60 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-240 | has | ExpressionValidated | V-240 read 23.50 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-241 | has | ExpressionValidated | V-241 read 30.80 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-242 | has | ExpressionValidated | V-242 read 24.80 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-243 | has | CloningFailed | V-243 gave no express reading in R-004: an internal BsaI site, which is pEX-01's own cloning site.
+V-244 | has | ExpressionValidated | V-244 read 24.90 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-245 | has | ExpressionValidated | V-245 read 22.50 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-246 | has | LowYield | V-246 read 18.40 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-247 | has | ExpressionValidated | V-247 read 25.20 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-248 | has | LowYield | V-248 read 11.10 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-249 | has | ExpressionValidated | V-249 read 32.20 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-250 | has | LowYield | V-250 read 12.70 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-251 | has | ExpressionValidated | V-251 read 20.80 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-252 | has | LowYield | V-252 read 10.70 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-253 | has | LowYield | V-253 read 11.10 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-254 | has | ExpressionValidated | V-254 read 26.50 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-255 | has | CloningFailed | V-255 gave no express reading in R-004: an internal BsaI site, which is pEX-01's own cloning site.
+V-256 | has | ExpressionValidated | V-256 read 27.10 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-257 | has | ExpressionValidated | V-257 read 26.80 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-258 | has | CloningFailed | V-258 gave no express reading in R-004: an internal BsaI site, which is pEX-01's own cloning site.
+V-259 | has | LowYield | V-259 read 9.70 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-260 | has | LowYield | V-260 read 9.60 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-261 | has | ExpressionValidated | V-261 read 24.40 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-262 | has | LowYield | V-262 read 11.20 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-263 | has | ExpressionValidated | V-263 read 32.50 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-264 | has | LowYield | V-264 read 19.90 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-265 | has | LowYield | V-265 read 11.60 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-266 | has | ExpressionValidated | V-266 read 23.00 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-267 | has | CloningFailed | V-267 gave no express reading in R-004: an internal BsaI site, which is pEX-01's own cloning site.
+V-268 | has | LowYield | V-268 read 19.90 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-269 | has | ExpressionValidated | V-269 read 21.50 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-270 | has | LowYield | V-270 read 12.90 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-271 | has | LowYield | V-271 read 10.50 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-272 | has | LowYield | V-272 read 10.70 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-273 | has | ExpressionValidated | V-273 read 23.10 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-274 | has | ExpressionValidated | V-274 read 23.80 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-275 | has | ExpressionValidated | V-275 read 21.90 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-276 | has | ExpressionValidated | V-276 read 26.00 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-277 | has | LowYield | V-277 read 9.80 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-278 | has | ExpressionValidated | V-278 read 27.00 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+V-279 | has | CloningFailed | V-279 gave no express reading in R-004: an internal BsaI site, which is pEX-01's own cloning site.
+V-280 | has | ExpressionValidated | V-280 read 23.70 yield_mg_l in R-004 (pEX-01 at 30 °C, 0.2 mM).
+R-005 | tested | L-2 | R-005 ran a binding assay on 15 variants of L-2 in pEX-01, on 2026-09-29, over 1 plate(s). the first fifteen of L-2 that expressed
+R-005 | result | 15 of 15 assayed | R-005: 15 of 15 variants gave a reading, median kd_nm 3.17.
+R-005 | informs | L-2 | R-005 informs L-2: its 15 binding readings in pEX-01 ran from 1.53 to 7.42 kd_nm, median 3.17.
+V-203 | binds | Kinase TK-7 | V-203 bound Kinase TK-7 at 1.67 nM in R-005, measured from a pEX-01 construct.
+V-205 | binds | Kinase TK-7 | V-205 bound Kinase TK-7 at 3.17 nM in R-005, measured from a pEX-01 construct.
+V-207 | binds | Kinase TK-7 | V-207 bound Kinase TK-7 at 3.84 nM in R-005, measured from a pEX-01 construct.
+V-208 | binds | Kinase TK-7 | V-208 bound Kinase TK-7 at 4.32 nM in R-005, measured from a pEX-01 construct.
+V-210 | binds | Kinase TK-7 | V-210 bound Kinase TK-7 at 6.09 nM in R-005, measured from a pEX-01 construct.
+V-212 | binds | Kinase TK-7 | V-212 bound Kinase TK-7 at 1.53 nM in R-005, measured from a pEX-01 construct.
+V-213 | binds | Kinase TK-7 | V-213 bound Kinase TK-7 at 3.02 nM in R-005, measured from a pEX-01 construct.
+V-214 | binds | Kinase TK-7 | V-214 bound Kinase TK-7 at 4.79 nM in R-005, measured from a pEX-01 construct.
+V-215 | binds | Kinase TK-7 | V-215 bound Kinase TK-7 at 2.43 nM in R-005, measured from a pEX-01 construct.
+V-216 | binds | Kinase TK-7 | V-216 bound Kinase TK-7 at 2.33 nM in R-005, measured from a pEX-01 construct.
+V-219 | binds | Kinase TK-7 | V-219 bound Kinase TK-7 at 3.86 nM in R-005, measured from a pEX-01 construct.
+V-220 | binds | Kinase TK-7 | V-220 bound Kinase TK-7 at 4.11 nM in R-005, measured from a pEX-01 construct.
+V-222 | binds | Kinase TK-7 | V-222 bound Kinase TK-7 at 2.24 nM in R-005, measured from a pEX-01 construct.
+V-223 | binds | Kinase TK-7 | V-223 bound Kinase TK-7 at 7.42 nM in R-005, measured from a pEX-01 construct.
+V-224 | binds | Kinase TK-7 | V-224 bound Kinase TK-7 at 1.93 nM in R-005, measured from a pEX-01 construct.
+R-006 | tested | L-2 | R-006 ran a thermal assay on 8 variants of L-2 in pEX-01, on 2026-10-01, over 1 plate(s). the first eight of L-2's binders; the plate was given over to the L-3 cloning before the rest were run
+R-006 | result | 8 of 8 assayed | R-006: 8 of 8 variants gave a reading, median tm_c 49.20.
+R-006 | informs | L-2 | R-006 informs L-2: its 8 thermal readings in pEX-01 ran from 43.70 to 50.90 tm_c, median 49.20.
+V-203 | has | ThermalScreened | V-203 read 43.70 tm_c in R-006 (pEX-01).
+V-205 | has | ThermalScreened | V-205 read 49.20 tm_c in R-006 (pEX-01).
+V-207 | has | ThermalScreened | V-207 read 49.30 tm_c in R-006 (pEX-01).
+V-208 | has | ThermalScreened | V-208 read 49.10 tm_c in R-006 (pEX-01).
+V-210 | has | ThermalScreened | V-210 read 50.80 tm_c in R-006 (pEX-01).
+V-212 | has | ThermalScreened | V-212 read 46.80 tm_c in R-006 (pEX-01).
+V-213 | has | ThermalScreened | V-213 read 49.10 tm_c in R-006 (pEX-01).
+V-214 | has | ThermalScreened | V-214 read 50.90 tm_c in R-006 (pEX-01).
+R-007 | tested | L-3 | R-007 ran a express assay on 80 variants of L-3 in pEX-01 at 30 °C, 0.2 mM, on 2026-10-02, over 1 plate(s). the position-7 library, in the standard vector, exactly as L-1 and L-2 were run
+R-007 | result | 72 of 80 assayed | R-007: 72 of 80 variants gave a reading, median yield_mg_l 11.50; 8 did not (an internal BsaI site, which is pEX-01's own cloning site).
+R-007 | informs | L-3 | R-007 informs L-3: its 72 express readings in pEX-01 at 30 °C, 0.2 mM ran from 8.30 to 16.80 yield_mg_l, median 11.50.
+V-301 | has | LowYield | V-301 read 13.30 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-302 | has | CloningFailed | V-302 gave no express reading in R-007: an internal BsaI site, which is pEX-01's own cloning site.
+V-303 | has | LowYield | V-303 read 12.20 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-304 | has | LowYield | V-304 read 11.50 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-305 | has | LowYield | V-305 read 13.30 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-306 | has | LowYield | V-306 read 10.60 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-307 | has | LowYield | V-307 read 13.40 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-308 | has | LowYield | V-308 read 11.30 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-309 | has | LowYield | V-309 read 10.40 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-310 | has | CloningFailed | V-310 gave no express reading in R-007: an internal BsaI site, which is pEX-01's own cloning site.
+V-311 | has | LowYield | V-311 read 8.70 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-312 | has | LowYield | V-312 read 9.80 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-313 | has | LowYield | V-313 read 12.80 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-314 | has | LowYield | V-314 read 10.70 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-315 | has | LowYield | V-315 read 12.50 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-316 | has | CloningFailed | V-316 gave no express reading in R-007: an internal BsaI site, which is pEX-01's own cloning site.
+V-317 | has | CloningFailed | V-317 gave no express reading in R-007: an internal BsaI site, which is pEX-01's own cloning site.
+V-318 | has | LowYield | V-318 read 10.40 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-319 | has | CloningFailed | V-319 gave no express reading in R-007: an internal BsaI site, which is pEX-01's own cloning site.
+V-320 | has | LowYield | V-320 read 10.20 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-321 | has | LowYield | V-321 read 14.40 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-322 | has | LowYield | V-322 read 12.90 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-323 | has | LowYield | V-323 read 13.10 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-324 | has | LowYield | V-324 read 15.30 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-325 | has | CloningFailed | V-325 gave no express reading in R-007: an internal BsaI site, which is pEX-01's own cloning site.
+V-326 | has | LowYield | V-326 read 11.80 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-327 | has | LowYield | V-327 read 10.80 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-328 | has | LowYield | V-328 read 10.50 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-329 | has | LowYield | V-329 read 15.00 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-330 | has | LowYield | V-330 read 10.70 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-331 | has | LowYield | V-331 read 9.30 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-332 | has | LowYield | V-332 read 12.20 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-333 | has | LowYield | V-333 read 15.10 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-334 | has | LowYield | V-334 read 10.10 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-335 | has | LowYield | V-335 read 11.50 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-336 | has | LowYield | V-336 read 13.70 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-337 | has | LowYield | V-337 read 12.70 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-338 | has | LowYield | V-338 read 12.70 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-339 | has | LowYield | V-339 read 12.00 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-340 | has | LowYield | V-340 read 13.10 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-341 | has | LowYield | V-341 read 12.60 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-342 | has | LowYield | V-342 read 9.90 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-343 | has | LowYield | V-343 read 11.30 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-344 | has | LowYield | V-344 read 12.10 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-345 | has | LowYield | V-345 read 10.30 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-346 | has | LowYield | V-346 read 11.50 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-347 | has | LowYield | V-347 read 11.40 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-348 | has | LowYield | V-348 read 10.10 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-349 | has | LowYield | V-349 read 13.40 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-350 | has | LowYield | V-350 read 13.00 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-351 | has | LowYield | V-351 read 10.70 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-352 | has | LowYield | V-352 read 10.30 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-353 | has | LowYield | V-353 read 8.60 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-354 | has | CloningFailed | V-354 gave no express reading in R-007: an internal BsaI site, which is pEX-01's own cloning site.
+V-355 | has | LowYield | V-355 read 16.80 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-356 | has | LowYield | V-356 read 10.70 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-357 | has | LowYield | V-357 read 10.50 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-358 | has | LowYield | V-358 read 9.30 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-359 | has | LowYield | V-359 read 11.20 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-360 | has | LowYield | V-360 read 13.30 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-361 | has | CloningFailed | V-361 gave no express reading in R-007: an internal BsaI site, which is pEX-01's own cloning site.
+V-362 | has | LowYield | V-362 read 10.20 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-363 | has | LowYield | V-363 read 10.50 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-364 | has | LowYield | V-364 read 16.40 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-365 | has | LowYield | V-365 read 8.30 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-366 | has | LowYield | V-366 read 9.80 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-367 | has | LowYield | V-367 read 10.00 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-368 | has | LowYield | V-368 read 10.40 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-369 | has | LowYield | V-369 read 12.10 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-370 | has | LowYield | V-370 read 12.30 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-371 | has | LowYield | V-371 read 11.10 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-372 | has | LowYield | V-372 read 13.00 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-373 | has | LowYield | V-373 read 12.10 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-374 | has | LowYield | V-374 read 12.20 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-375 | has | LowYield | V-375 read 10.40 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-376 | has | LowYield | V-376 read 9.90 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-377 | has | LowYield | V-377 read 11.20 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-378 | has | LowYield | V-378 read 12.20 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-379 | has | LowYield | V-379 read 9.70 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).
+V-380 | has | LowYield | V-380 read 13.70 yield_mg_l in R-007 (pEX-01 at 30 °C, 0.2 mM).

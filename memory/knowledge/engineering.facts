@@ -1,0 +1,98 @@
+# Lab knowledge: engineering (synthetic).
+Pump overload | causes | Micro-cavitation | A pump asked for most of its capacity cavitates at its inlet.
+Feed Pump FP-1 | prone_to | Micro-cavitation | FP-1 cavitates when its inlet seal wears, and when the feed it is asked for crowds its capacity.
+Micro-cavitation | causes | Feed ripple | A cavitating pump delivers the feed in pulses, not evenly.
+Feed ripple | causes | Glucose spikes | Pulses of feed put glucose in the broth faster than the cells can burn it.
+Glucose spikes | causes | Acetate overflow | Cells given more glucose than their oxidative capacity send the surplus out as acetate.
+Feed set-point | prone_to | Acetate overflow | A feed set-point above what the cells can oxidise is overflow metabolism by another road.
+Batch glucose | prone_to | Acetate overflow | A rich batch phase overflows before the feed has even started.
+Growth temperature | prone_to | Acetate overflow | A warm culture takes glucose up faster than it can burn it.
+Acetate overflow | causes | Growth inhibition | Acetate slows growth, and its effect grows with its concentration.
+Acetate overflow | causes | Viability loss | Acetate above a few grams per litre kills cells.
+Growth inhibition | causes | Low titre | A culture held back makes less product.
+Acetate overflow | remedied_by | Feed set-point | Overflow is remedied by lowering the feed set-point until the respiratory quotient settles.
+Acetate overflow | remedied_by | Growth temperature | A cooler growth phase slows uptake and eases overflow.
+Pump overload | remedied_by | Feed concentration | A more concentrated feed delivers the same glucose at a lower pump rate.
+Micro-cavitation | remedied_by | Pump seal replacement | Cavitation from a worn inlet seal is fixed by replacing the seal.
+Feed concentration | prone_to | Pump overload | A dilute feed at a high set-point asks the pump for most of its capacity.
+High cell density | causes | Oxygen limitation | Oxygen demand grows with the cells; the transfer the reactor can give does not.
+Oxygen limitation | causes | Acetate overflow | Cells short of oxygen ferment the glucose they cannot burn.
+Oxygen limitation | causes | Viability loss | A culture starved of oxygen dies.
+Oxygen limitation | remedied_by | Oxygen enrichment | Enriching the gas raises the oxygen the broth can take.
+Oxygen limitation | remedied_by | Agitation limit | Faster stirring raises the oxygen transfer, up to the limit the reactor allows.
+Oxygen limitation | remedied_by | Airflow | More air raises oxygen transfer, with less effect than stirring.
+Oxygen cascade | governs | Agitation limit | The oxygen cascade raises the agitation as dissolved oxygen falls, within the limit it is given.
+Feed set-point | prone_to | High cell density | A higher feed set-point builds cells faster, and so reaches oxygen limits sooner.
+Oxygen enrichment | causes | Heat load | More oxygen transfer lets a denser culture burn more, and every unit burned is heat for the chiller.
+Heat load | causes | Chiller saturation | When the heat outruns the chiller's capacity the reactor warms.
+Cold shift | prone_to | Chiller saturation | A cold shift narrows the gap to the coolant and cuts the chiller's capacity just when the culture is densest.
+Chiller CH-1 | prone_to | Chiller saturation | CH-1 has limited capacity, which falls as the set-point drops.
+Chiller saturation | causes | Temperature excursion | A saturated chiller lets the reactor drift above its set-point.
+Temperature excursion | causes | Acetate overflow | A warm reactor overflows.
+Temperature excursion | causes | Viability loss | A reactor running hot kills cells.
+Chiller saturation | remedied_by | Cold shift | A less severe cold shift keeps more of the chiller's capacity.
+Chiller saturation | remedied_by | Feed set-point | A lower feed set-point means less biomass and less heat.
+Inducer dose | prone_to | Viability loss | A high dose drives expression harder and kills more cells the longer it runs.
+Inducer dose | prone_to | Low titre | A low dose under-expresses.
+Induction point | prone_to | Burden on growth | Induction at low density loads cells that are still growing.
+Burden on growth | causes | Low titre | Cells slowed by the burden of making product reach a lower density.
+Induction point | prone_to | Short production window | Induction late in the run leaves little time to make product.
+Short production window | causes | Low titre | Less time to produce is less product.
+Inoculum density | prone_to | Short production window | A thin inoculum with a small batch may reach the induction point late or never.
+Warm induction | causes | Inclusion bodies | Product made in warm cells folds badly and aggregates.
+Inclusion bodies | causes | Low titre | Aggregated product is not counted in the soluble titre.
+Inclusion bodies | remedied_by | Cold shift | Cooling at induction folds more of the product soluble.
+Cold shift | causes | Soluble product | A cooler induction raises the share of product that folds soluble, at some cost in rate.
+Induction phase | prone_to | Viability loss | The longer the cells make product, the more of them are lost.
+Fed-batch phase | prone_to | Oxygen limitation | The fed-batch phase builds the density that oxygen cannot keep up with.
+Batch phase | prone_to | Acetate overflow | The batch phase has glucose in excess, so it can overflow.
+pH set-point | governs | Growth inhibition | Growth falls off gently on either side of neutral, so the pH set-point moves the titre little.
+High cell density | causes | Broth viscosity rise | A dense broth is viscous.
+Broth viscosity rise | causes | Pipetting error | Viscous broth drags on the pipette and the dispensed volume varies.
+Worn pipette tips | causes | Pipetting error | Worn tips dispense unevenly.
+Liquid Handler LH-1 | prone_to | Worn pipette tips | LH-1's tips wear with use.
+Pipetting error | causes | Noisy titre | A sample dispensed unevenly makes the HPLC titre noisy.
+Pipetting error | remedied_by | Sample dilution | Diluting a dense sample before pipetting restores the precision.
+HPLC H-1 | prone_to | Column fouling | The column fouls with host-cell protein over successive injections.
+Column fouling | causes | Retention time drift | A fouling column shifts retention time later.
+Column fouling | causes | Column pressure rise | A fouling column raises back-pressure.
+Column fouling | remedied_by | Column regeneration | A fouled column is regenerated or replaced.
+Respiratory quotient | indicates | Acetate overflow | A respiratory quotient above one means carbon is leaving as acid as well as CO2 from oxygen burned.
+Acetate | indicates | Acetate overflow | Acetate in the broth is overflow metabolism made visible.
+Dissolved oxygen | indicates | Oxygen limitation | Dissolved oxygen falling to its floor means demand has met the transfer limit.
+Viability | indicates | Viability loss | Falling viability on the cytometer is the culture dying.
+Chiller load | indicates | Chiller saturation | A chiller load near its ceiling means the heat is outrunning the cooling.
+Pressure ripple | indicates | Micro-cavitation | A ripple on the feed line is the signature of a cavitating pump.
+Dispense CV | indicates | Pipetting error | A rising dispense CV is the handler losing precision.
+Retention time | indicates | Column fouling | Drift in retention time is the column fouling.
+Reporter fluorescence | indicates | Soluble product | The reporter's fluorescence follows the product that folded; it is the fast proxy for the HPLC titre.
+Titre | indicates | Soluble product | The HPLC titre is the measure the research loop scores.
+Affinity maturation | causes | Stability loss | Selecting on binding alone picks up substitutions in the binding loop that cost the fold its stability.
+Stability loss | indicates | Melting temperature | Stability loss shows as a melting temperature below the profile's floor.
+Stability loss | remedied_by | Position-7 substitution | The position-7 substitution restores the fold in the matured background without giving the binding back.
+Position-7 substitution | causes | Aggregation | It repairs the fold and leaves the construct prone to aggregating as it is made.
+Affinity maturation | causes | Aggregation | The matured binding loop is itself somewhat aggregation-prone.
+Aggregation | causes | Inclusion bodies | An aggregating construct comes out of the cells as inclusion bodies instead of soluble protein.
+Aggregation | causes | Low yield | What aggregates is not recovered, so the soluble yield falls below what an assay needs.
+Aggregation | remedied_by | Cold shift | A colder induction gives the construct time to fold, and most of it stays soluble.
+Aggregation | remedied_by | Solubility fusion | A fusion partner keeps an aggregation-prone construct soluble while it is made, and is cleaved after capture.
+Inducer dose | prone_to | Aggregation | A strong induction makes the protein faster than it can fold.
+Low yield | causes | Unscreenable variant | A variant that does not reach the profile's yield cannot be put on a binding, thermal or counter plate at all.
+Unscreenable variant | remedied_by | Solubility fusion | Re-making the construct with the fusion partner brings it back into the screen.
+Unscreenable variant | remedied_by | Cold shift | Re-expressing under a colder, gentler induction brings it back into the screen.
+Internal cut site | causes | Cloning failure | A construct carrying the enzyme's own site inside it cannot be assembled into a vector that cuts with that enzyme.
+Cloning failure | remedied_by | Solubility fusion | The fusion vector is assembled with a different enzyme, so a construct that fails elsewhere clones into it.
+Cloning failure | indicates | Internal cut site | A construct that fails to assemble in two vectors sharing one enzyme is carrying that enzyme's site.
+Purification tag | causes | Overstated affinity | A tag left on the construct sits near the binding face, so the measured dissociation constant reads weaker than the binder is.
+Overstated affinity | remedied_by | Tag-free vector | A borderline binder is confirmed from a construct whose tag is cleaved.
+Edge well | causes | Noisy reading | A well on the rim of a plate evaporates differently and reads noisier than the interior.
+Noisy reading | remedied_by | Replicate wells | Replicates across the plate average the position out.
+Counter-target | indicates | Selectivity | What a binder does to the counter-target, against what it does to the target, is its selectivity.
+Acetate guardrail | governs | Acetate overflow | The acetate guardrail: a run whose acetate peaks above its limit is invalid, whatever its titre. The limit is set in the harness.
+Oxygen guardrail | governs | Oxygen limitation | The oxygen guardrail: a run whose dissolved oxygen falls below its floor is invalid. The limit is set in the harness.
+Viability guardrail | governs | Viability loss | The viability guardrail: a run whose viability falls below its floor is invalid. The limit is set in the harness.
+Volume guardrail | governs | Volume overrun | The volume guardrail: a run whose broth outgrows the vessel is invalid. The limit is set in the harness.
+Temperature guardrail | governs | Temperature excursion | The temperature guardrail: a run whose reactor drifts too far above its set-point is invalid. The limit is set in the harness.
+Operating envelope | governs | Feed set-point | The operating envelope bounds every knob; a protocol outside it is refused and never run.
+Feed concentration | prone_to | Volume overrun | A dilute feed adds more volume for the same glucose, and the broth can outgrow the vessel.
+Volume overrun | remedied_by | Feed concentration | A more concentrated feed keeps the volume down.

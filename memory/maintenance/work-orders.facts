@@ -1,0 +1,41 @@
+# Maintenance work orders (synthetic).
+WO-4001 | performed_on | Plate Reader PR-1 | WO-4001: lamp check on Plate Reader PR-1 (2026-08-27), completed by Technician Okafor.
+WO-4002 | performed_on | HPLC H-1 | WO-4002: column regeneration on HPLC H-1 (2026-03-21), completed by Technician Lindqvist.
+WO-4003 | performed_on | HPLC H-1 | WO-4003: column regeneration on HPLC H-1 (2026-02-16), completed by Technician Okafor.
+WO-4004 | performed_on | Chiller CH-1 | WO-4004: coolant check on Chiller CH-1 (2026-06-18), completed by Technician Ramos.
+WO-4005 | performed_on | Liquid Handler LH-1 | WO-4005: pipette tip change on Liquid Handler LH-1 (2026-09-17), completed by Technician Lindqvist.
+WO-4006 | performed_on | HPLC H-1 | WO-4006: column regeneration on HPLC H-1 (2026-03-21), completed by Technician Lindqvist.
+WO-4007 | performed_on | Plate Reader PR-1 | WO-4007: lamp check on Plate Reader PR-1 (2026-04-09), completed by Technician Lindqvist.
+WO-4008 | performed_on | Feed Pump FP-1 | WO-4008: pump seal replacement on Feed Pump FP-1 (2026-05-03), completed by Technician Ramos.
+WO-4009 | performed_on | Liquid Handler LH-1 | WO-4009: pipette tip change on Liquid Handler LH-1 (2026-01-02), completed by Technician Ramos.
+WO-4010 | performed_on | Flow Cytometer FC-1 | WO-4010: laser alignment on Flow Cytometer FC-1 (2026-07-23), completed by Technician Chen.
+WO-4011 | performed_on | HPLC H-1 | WO-4011: column regeneration on HPLC H-1 (2026-03-17), completed by Technician Ramos.
+WO-4012 | performed_on | Liquid Handler LH-1 | WO-4012: pipette tip change on Liquid Handler LH-1 (2026-07-01), completed by Technician Lindqvist.
+WO-4013 | performed_on | Flow Cytometer FC-1 | WO-4013: laser alignment on Flow Cytometer FC-1 (2026-04-02), completed by Technician Lindqvist.
+WO-4014 | performed_on | HPLC H-1 | WO-4014: column regeneration on HPLC H-1 (2026-07-28), completed by Technician Chen.
+WO-4015 | performed_on | HPLC H-1 | WO-4015: column regeneration on HPLC H-1 (2026-03-19), completed by Technician Lindqvist.
+WO-4016 | performed_on | Liquid Handler LH-1 | WO-4016: pipette tip change on Liquid Handler LH-1 (2026-01-15), completed by Technician Lindqvist.
+WO-4017 | performed_on | HPLC H-1 | WO-4017: column regeneration on HPLC H-1 (2026-03-07), completed by Technician Lindqvist.
+WO-4018 | performed_on | Feed Pump FP-1 | WO-4018: pump seal replacement on Feed Pump FP-1 (2026-05-09), completed by Technician Okafor.
+WO-4019 | performed_on | Bioreactor R-1 | WO-4019: probe calibration on Bioreactor R-1 (2026-05-18), completed by Technician Ramos.
+WO-4020 | performed_on | Feed Pump FP-1 | WO-4020: pump seal replacement on Feed Pump FP-1 (2026-09-07), completed by Technician Ramos.
+WO-4021 | performed_on | Flow Cytometer FC-1 | WO-4021: laser alignment on Flow Cytometer FC-1 (2026-06-11), completed by Technician Chen.
+WO-4022 | performed_on | Off-gas Analyzer MS-1 | WO-4022: calibration gas check on Off-gas Analyzer MS-1 (2026-06-10), completed by Technician Okafor.
+WO-4023 | performed_on | Chiller CH-1 | WO-4023: coolant check on Chiller CH-1 (2026-06-06), completed by Technician Okafor.
+WO-4024 | performed_on | Off-gas Analyzer MS-1 | WO-4024: calibration gas check on Off-gas Analyzer MS-1 (2026-04-28), completed by Technician Okafor.
+WO-4025 | performed_on | Feed Pump FP-1 | WO-4025: pump seal replacement on Feed Pump FP-1 (2026-05-27), completed by Technician Ramos.
+WO-4026 | performed_on | Off-gas Analyzer MS-1 | WO-4026: calibration gas check on Off-gas Analyzer MS-1 (2026-04-05), completed by Technician Chen.
+WO-4027 | performed_on | Off-gas Analyzer MS-1 | WO-4027: calibration gas check on Off-gas Analyzer MS-1 (2026-02-05), completed by Technician Okafor.
+WO-4028 | performed_on | HPLC H-1 | WO-4028: column regeneration on HPLC H-1 (2026-04-16), completed by Technician Lindqvist.
+WO-4029 | performed_on | Feed Pump FP-1 | WO-4029: pump seal replacement on Feed Pump FP-1 (2026-09-16), completed by Technician Chen.
+WO-4030 | performed_on | Off-gas Analyzer MS-1 | WO-4030: calibration gas check on Off-gas Analyzer MS-1 (2026-06-12), completed by Technician Okafor.
+WO-4031 | performed_on | Plate Reader PR-1 | WO-4031: lamp check on Plate Reader PR-1 (2026-04-23), completed by Technician Okafor.
+WO-4032 | performed_on | Plate Reader PR-1 | WO-4032: lamp check on Plate Reader PR-1 (2026-05-13), completed by Technician Okafor.
+WO-4033 | performed_on | Chiller CH-1 | WO-4033: coolant check on Chiller CH-1 (2026-01-20), completed by Technician Lindqvist.
+WO-4034 | performed_on | Plate Reader PR-1 | WO-4034: lamp check on Plate Reader PR-1 (2026-01-20), completed by Technician Chen.
+WO-4035 | performed_on | Liquid Handler LH-1 | WO-4035: pipette tip change on Liquid Handler LH-1 (2026-06-02), completed by Technician Lindqvist.
+WO-4036 | performed_on | Flow Cytometer FC-1 | WO-4036: laser alignment on Flow Cytometer FC-1 (2026-09-15), completed by Technician Chen.
+WO-4037 | performed_on | HPLC H-1 | WO-4037: column regeneration on HPLC H-1 (2026-06-06), completed by Technician Lindqvist.
+WO-4038 | performed_on | HPLC H-1 | WO-4038: column regeneration on HPLC H-1 (2026-05-14), completed by Technician Lindqvist.
+WO-4039 | performed_on | HPLC H-1 | WO-4039: column regeneration on HPLC H-1 (2026-01-13), completed by Technician Chen.
+WO-4040 | performed_on | Feed Pump FP-1 | WO-4040: pump seal replacement on Feed Pump FP-1 (2026-02-01), completed by Technician Okafor.

@@ -1,0 +1,72 @@
+# Campaign 1: the process group's trials before this loop (synthetic).
+EXP-001 | tested | Baseline protocol | EXP-001 ran the protocol as it stood. The starting protocol, as the process group inherited it
+EXP-001 | result | Kept: titre 0.51 g/L | EXP-001 gave a titre of 0.51 g/L; first valid protocol.
+EXP-002 | tested | Feed set-point | EXP-002 tested Feed set-point (feed.mu_set from 0.06 to 0.3). Raise the feed set-point to 0.3 per hour to grow faster
+EXP-002 | result | Discarded: titre 0.48 g/L | EXP-002 gave a titre of 0.48 g/L, against 0.51 g/L for the best before it; invalid: acetate peaked at 8.4 g/L; dissolved oxygen fell to 3.0 %; viability fell to 48.1 %.
+EXP-002 | violated | Acetate overflow | EXP-002 broke the acetate guardrail: acetate peaked at 8.4 g/L.
+EXP-002 | violated | Oxygen limitation | EXP-002 broke the oxygen guardrail: dissolved oxygen fell to 3.0 %.
+EXP-002 | violated | Viability loss | EXP-002 broke the viability guardrail: viability fell to 48.1 %.
+EXP-002 | informs | Feed set-point | EXP-002 informs Feed set-point: moving feed.mu_set from 0.06 to 0.3 gave 0.48 g/L and an invalid run (acetate peaked at 8.4 g/L; dissolved oxygen fell to 3.0 %; viability fell to 48.1 %).
+EXP-003 | tested | Feed set-point | EXP-003 tested Feed set-point (feed.mu_set from 0.06 to 0.15). Raise the feed set-point to 0.15 per hour
+EXP-003 | result | Discarded: titre 0.60 g/L | EXP-003 gave a titre of 0.60 g/L, against 0.51 g/L for the best before it; invalid: acetate peaked at 8.5 g/L; dissolved oxygen fell to 3.0 %; viability fell to 47.0 %.
+EXP-003 | violated | Acetate overflow | EXP-003 broke the acetate guardrail: acetate peaked at 8.5 g/L.
+EXP-003 | violated | Oxygen limitation | EXP-003 broke the oxygen guardrail: dissolved oxygen fell to 3.0 %.
+EXP-003 | violated | Viability loss | EXP-003 broke the viability guardrail: viability fell to 47.0 %.
+EXP-003 | informs | Feed set-point | EXP-003 informs Feed set-point: moving feed.mu_set from 0.06 to 0.15 gave 0.60 g/L and an invalid run (acetate peaked at 8.5 g/L; dissolved oxygen fell to 3.0 %; viability fell to 47.0 %).
+EXP-004 | tested | Oxygen enrichment | EXP-004 tested Oxygen enrichment (o2_enrichment_pct from 21 to 30). Enrich the gas to 30 percent oxygen
+EXP-004 | result | Discarded: titre 0.51 g/L | EXP-004 gave a titre of 0.51 g/L, against 0.51 g/L for the best before it; no gain over 0.51 g/L.
+EXP-004 | informs | Oxygen enrichment | EXP-004 informs Oxygen enrichment: moving o2_enrichment_pct from 21 to 30 gave 0.51 g/L.
+EXP-005 | tested | Feed set-point | EXP-005 tested Feed set-point (feed.mu_set from 0.06 to 0.08). Feed set-point 0.08 per hour
+EXP-005 | result | Discarded: titre 1.10 g/L | EXP-005 gave a titre of 1.10 g/L, against 0.51 g/L for the best before it; invalid: dissolved oxygen fell to 3.0 %.
+EXP-005 | violated | Oxygen limitation | EXP-005 broke the oxygen guardrail: dissolved oxygen fell to 3.0 %.
+EXP-005 | informs | Feed set-point | EXP-005 informs Feed set-point: moving feed.mu_set from 0.06 to 0.08 gave 1.10 g/L and an invalid run (dissolved oxygen fell to 3.0 %).
+EXP-006 | tested | Growth temperature | EXP-006 tested Growth temperature (temperature_c from 32 to 37). Raise the growth temperature to 37 C for faster growth
+EXP-006 | result | Discarded: titre 0.20 g/L | EXP-006 gave a titre of 0.20 g/L, against 0.51 g/L for the best before it; invalid: acetate peaked at 4.3 g/L.
+EXP-006 | violated | Acetate overflow | EXP-006 broke the acetate guardrail: acetate peaked at 4.3 g/L.
+EXP-006 | informs | Growth temperature | EXP-006 informs Growth temperature: moving temperature_c from 32 to 37 gave 0.20 g/L and an invalid run (acetate peaked at 4.3 g/L).
+EXP-007 | tested | Batch glucose | EXP-007 tested Batch glucose (batch_glucose_g_l from 15 to 10). Lower the batch glucose to 10 g/L
+EXP-007 | result | Discarded: titre 0.00 g/L | EXP-007 gave a titre of 0.00 g/L, against 0.51 g/L for the best before it; invalid: the culture never reached the induction point.
+EXP-007 | informs | Batch glucose | EXP-007 informs Batch glucose: moving batch_glucose_g_l from 15 to 10 gave 0.00 g/L and an invalid run (no product).
+EXP-008 | tested | Inoculum density | EXP-008 tested Inoculum density (inoculum_od from 0.5 to 1). Double the inoculum to OD 1.0
+EXP-008 | result | Kept: titre 1.01 g/L | EXP-008 gave a titre of 1.01 g/L, against 0.51 g/L for the best before it; titre up from 0.51 g/L.
+EXP-008 | informs | Inoculum density | EXP-008 informs Inoculum density: moving inoculum_od from 0.5 to 1 gave 1.01 g/L.
+EXP-009 | tested | pH set-point | EXP-009 tested pH set-point (ph from 7 to 6.6). Try pH 6.6 against acetate
+EXP-009 | result | Kept: titre 1.03 g/L | EXP-009 gave a titre of 1.03 g/L, against 1.01 g/L for the best before it; titre up from 1.01 g/L.
+EXP-009 | informs | pH set-point | EXP-009 informs pH set-point: moving ph from 7 to 6.6 gave 1.03 g/L.
+EXP-010 | tested | Induction point | EXP-010 tested Induction point (induction.at_od from 25 to 15). Induce at OD 15 instead of 25
+EXP-010 | result | Kept: titre 1.76 g/L | EXP-010 gave a titre of 1.76 g/L, against 1.03 g/L for the best before it; titre up from 1.03 g/L.
+EXP-010 | informs | Induction point | EXP-010 informs Induction point: moving induction.at_od from 25 to 15 gave 1.76 g/L.
+EXP-011 | tested | Inducer dose | EXP-011 tested Inducer dose (induction.inducer_mm from 0.1 to 0.8). Raise the inducer to 0.8 mM for a stronger signal
+EXP-011 | result | Discarded: titre 2.55 g/L | EXP-011 gave a titre of 2.55 g/L, against 1.76 g/L for the best before it; invalid: viability fell to 77.8 %.
+EXP-011 | violated | Viability loss | EXP-011 broke the viability guardrail: viability fell to 77.8 %.
+EXP-011 | informs | Inducer dose | EXP-011 informs Inducer dose: moving induction.inducer_mm from 0.1 to 0.8 gave 2.55 g/L and an invalid run (viability fell to 77.8 %).
+EXP-012 | tested | Cold shift | EXP-012 tested Cold shift (induction.temperature_c from 32 to 30). Shift to 30 C at induction for more soluble protein
+EXP-012 | result | Kept: titre 1.94 g/L | EXP-012 gave a titre of 1.94 g/L, against 1.76 g/L for the best before it; titre up from 1.76 g/L.
+EXP-012 | informs | Cold shift | EXP-012 informs Cold shift: moving induction.temperature_c from 32 to 30 gave 1.94 g/L.
+EXP-013 | tested | Airflow | EXP-013 tested Airflow (airflow_vvm from 1 to 2). Double the airflow to 2 vvm
+EXP-013 | result | Discarded: titre 1.94 g/L | EXP-013 gave a titre of 1.94 g/L, against 1.94 g/L for the best before it; no gain over 1.94 g/L.
+EXP-013 | informs | Airflow | EXP-013 informs Airflow: moving airflow_vvm from 1 to 2 gave 1.94 g/L.
+EXP-014 | tested | Inducer dose | EXP-014 tested Inducer dose (induction.inducer_mm from 0.1 to 0.2). Inducer 0.2 mM
+EXP-014 | result | Kept: titre 2.36 g/L | EXP-014 gave a titre of 2.36 g/L, against 1.94 g/L for the best before it; titre up from 1.94 g/L.
+EXP-014 | informs | Inducer dose | EXP-014 informs Inducer dose: moving induction.inducer_mm from 0.1 to 0.2 gave 2.36 g/L.
+EXP-015 | tested | Induction point | EXP-015 tested Induction point (induction.at_od from 15 to 5). Induce at OD 5 to give the product longer
+EXP-015 | result | Discarded: titre 1.93 g/L | EXP-015 gave a titre of 1.93 g/L, against 2.36 g/L for the best before it; no gain over 2.36 g/L.
+EXP-015 | informs | Induction point | EXP-015 informs Induction point: moving induction.at_od from 15 to 5 gave 1.93 g/L.
+EXP-016 | tested | Agitation limit | EXP-016 tested Agitation limit (rpm_max from 800 to 1000). Allow the agitation to reach 1000 rpm
+EXP-016 | result | Discarded: titre 2.36 g/L | EXP-016 gave a titre of 2.36 g/L, against 2.36 g/L for the best before it; no gain over 2.36 g/L.
+EXP-016 | informs | Agitation limit | EXP-016 informs Agitation limit: moving rpm_max from 800 to 1000 gave 2.36 g/L.
+EXP-017 | tested | Feed trigger | EXP-017 tested Feed trigger (feed.trigger_glucose_g_l from 0.5 to 2). Start the feed early, while glucose is still 2 g/L
+EXP-017 | result | Discarded: titre 2.33 g/L | EXP-017 gave a titre of 2.33 g/L, against 2.36 g/L for the best before it; no gain over 2.36 g/L.
+EXP-017 | informs | Feed trigger | EXP-017 informs Feed trigger: moving feed.trigger_glucose_g_l from 0.5 to 2 gave 2.33 g/L.
+EXP-018 | tested | Cold shift | EXP-018 tested Cold shift (induction.temperature_c from 30 to 24). Cold shift to 24 C
+EXP-018 | result | Discarded: titre 1.12 g/L | EXP-018 gave a titre of 1.12 g/L, against 2.36 g/L for the best before it; no gain over 2.36 g/L.
+EXP-018 | informs | Cold shift | EXP-018 informs Cold shift: moving induction.temperature_c from 30 to 24 gave 1.12 g/L.
+EXP-019 | tested | Feed concentration | EXP-019 tested Feed concentration (feed.glucose_g_l from 400 to 250). Feed 250 g/L glucose to keep the broth thinner
+EXP-019 | result | Discarded: titre 2.27 g/L | EXP-019 gave a titre of 2.27 g/L, against 2.36 g/L for the best before it; no gain over 2.36 g/L.
+EXP-019 | informs | Feed concentration | EXP-019 informs Feed concentration: moving feed.glucose_g_l from 400 to 250 gave 2.27 g/L.
+EXP-020 | tested | Feed set-point | EXP-020 tested Feed set-point (feed.mu_set from 0.06 to 0.12). Feed set-point 0.12 per hour
+EXP-020 | result | Discarded: titre 1.62 g/L | EXP-020 gave a titre of 1.62 g/L, against 2.36 g/L for the best before it; invalid: acetate peaked at 4.7 g/L; dissolved oxygen fell to 3.0 %; viability fell to 62.1 %.
+EXP-020 | violated | Acetate overflow | EXP-020 broke the acetate guardrail: acetate peaked at 4.7 g/L.
+EXP-020 | violated | Oxygen limitation | EXP-020 broke the oxygen guardrail: dissolved oxygen fell to 3.0 %.
+EXP-020 | violated | Viability loss | EXP-020 broke the viability guardrail: viability fell to 62.1 %.
+EXP-020 | informs | Feed set-point | EXP-020 informs Feed set-point: moving feed.mu_set from 0.06 to 0.12 gave 1.62 g/L and an invalid run (acetate peaked at 4.7 g/L; dissolved oxygen fell to 3.0 %; viability fell to 62.1 %).

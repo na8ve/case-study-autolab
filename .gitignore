@@ -1,0 +1,7 @@
+node_modules/
+.na8ve/
+.autolab/
+results.tsv
+campaign.tsv
+control/
+*.key

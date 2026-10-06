@@ -1,0 +1,21 @@
+{
+  "inoculum_od": 1,
+  "batch_glucose_g_l": 10,
+  "temperature_c": 32,
+  "ph": 7,
+  "airflow_vvm": 1,
+  "rpm_start": 400,
+  "rpm_max": 1000,
+  "do_setpoint_pct": 30,
+  "o2_enrichment_pct": 40,
+  "feed": {
+    "trigger_glucose_g_l": 0.5,
+    "mu_set": 0.3,
+    "glucose_g_l": 250
+  },
+  "induction": {
+    "at_od": 15,
+    "inducer_mm": 0.2,
+    "temperature_c": 30
+  }
+}

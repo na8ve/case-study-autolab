@@ -1,0 +1,8 @@
+{
+  "name": "autolab",
+  "title": "A binder campaign that stalled, and a lab that knows why (synthetic)",
+  "space": "Case study: autolab",
+  "stakes": "A synthetic lab for a demo; a wrong memory here would send the demo's next plate to the wrong library.",
+  "question": "Our binder campaign has stalled: the tightest binders melt too low, and the library built to fix that would not express at all. We have five plates left. Where should the next one go, and what has to change for it to work?",
+  "ready": "Aggregation"
+}

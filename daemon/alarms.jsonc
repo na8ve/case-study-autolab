@@ -1,0 +1,51 @@
+[
+  {
+    "subject": "ms1:rq",
+    "condition": "value > 1.1",
+    "severity": "warning",
+    "cooldownMin": 15,
+    "question": "The off-gas analyzer on Bioreactor R-1 reports a respiratory quotient of {value} at {at}, above 1.1. What does that indicate, and what should I change in the protocol?"
+  },
+  {
+    "subject": "r1:do",
+    "condition": "value < 20",
+    "severity": "critical",
+    "cooldownMin": 15,
+    "question": "Dissolved oxygen in Bioreactor R-1 fell to {value} {unit} at {at}, below the 20 % guardrail. What is limiting oxygen, and what can be changed?"
+  },
+  {
+    "subject": "h1:acetate",
+    "condition": "value > 3",
+    "severity": "warning",
+    "cooldownMin": 15,
+    "question": "The HPLC reports acetate at {value} {unit} at {at}, close to the acetate guardrail. What is driving it, and how has it been fixed before?"
+  },
+  {
+    "subject": "fp1:ripple",
+    "condition": "value > 0.3",
+    "severity": "warning",
+    "cooldownMin": 15,
+    "question": "Feed Pump FP-1 line pressure ripple is {value} {unit} at {at}. What does that do to the culture, and what should I check?"
+  },
+  {
+    "subject": "ch1:load",
+    "condition": "value > 90",
+    "severity": "critical",
+    "cooldownMin": 15,
+    "question": "Chiller CH-1 is at {value} {unit} load at {at}. What happens if it saturates, and what in the protocol drives that load?"
+  },
+  {
+    "subject": "screen:leads",
+    "condition": "value > 0",
+    "severity": "critical",
+    "cooldownMin": 5,
+    "question": "A screening round just produced {value} variant(s) meeting the whole target profile at {at}. What should the next plate confirm before we believe it, and what in this lab's history would make a result like this an artefact rather than a hit?"
+  },
+  {
+    "subject": "fc1:viability",
+    "condition": "value < 88",
+    "severity": "warning",
+    "cooldownMin": 15,
+    "question": "The flow cytometer reports viability of {value} {unit} at {at}. What could be killing the culture, and what has been learned about it?"
+  }
+]

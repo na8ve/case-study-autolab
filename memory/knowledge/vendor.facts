@@ -1,0 +1,42 @@
+# Lab knowledge: vendor (synthetic).
+Bioreactor R-1 | reports | pH | The Bioreactor R-1 controller streams ph to the lab's data system.
+Bioreactor R-1 | reports | Temperature | The Bioreactor R-1 controller streams temperature to the lab's data system.
+Bioreactor R-1 | reports | Dissolved oxygen | The Bioreactor R-1 controller streams dissolved oxygen to the lab's data system.
+Bioreactor R-1 | reports | Agitation | The Bioreactor R-1 controller streams agitation to the lab's data system.
+Feed Pump FP-1 | reports | Feed rate | The Feed Pump FP-1 controller streams feed rate to the lab's data system.
+Feed Pump FP-1 | reports | Line pressure | The Feed Pump FP-1 controller streams line pressure to the lab's data system.
+Feed Pump FP-1 | reports | Pressure ripple | The Feed Pump FP-1 controller streams pressure ripple to the lab's data system.
+Chiller CH-1 | reports | Jacket temperature | The Chiller CH-1 controller streams jacket temperature to the lab's data system.
+Chiller CH-1 | reports | Chiller load | The Chiller CH-1 controller streams chiller load to the lab's data system.
+Off-gas Analyzer MS-1 | reports | Exhaust O2 | The Off-gas Analyzer MS-1 controller streams exhaust o2 to the lab's data system.
+Off-gas Analyzer MS-1 | reports | Exhaust CO2 | The Off-gas Analyzer MS-1 controller streams exhaust co2 to the lab's data system.
+Off-gas Analyzer MS-1 | reports | Respiratory quotient | The Off-gas Analyzer MS-1 controller streams respiratory quotient to the lab's data system.
+Liquid Handler LH-1 | reports | Dispense CV | The Liquid Handler LH-1 controller streams dispense cv to the lab's data system.
+Liquid Handler LH-1 | reports | Aspirate pressure | The Liquid Handler LH-1 controller streams aspirate pressure to the lab's data system.
+HPLC H-1 | reports | Titre | The HPLC H-1 controller streams titre to the lab's data system.
+HPLC H-1 | reports | Acetate | The HPLC H-1 controller streams acetate to the lab's data system.
+HPLC H-1 | reports | Retention time | The HPLC H-1 controller streams retention time to the lab's data system.
+HPLC H-1 | reports | Column pressure | The HPLC H-1 controller streams column pressure to the lab's data system.
+Plate Reader PR-1 | reports | OD600 | The Plate Reader PR-1 controller streams od600 to the lab's data system.
+Plate Reader PR-1 | reports | Reporter fluorescence | The Plate Reader PR-1 controller streams reporter fluorescence to the lab's data system.
+Flow Cytometer FC-1 | reports | Viability | The Flow Cytometer FC-1 controller streams viability to the lab's data system.
+Flow Cytometer FC-1 | reports | Cell density | The Flow Cytometer FC-1 controller streams cell density to the lab's data system.
+Pump overload | causes | Micro-cavitation | Vendor bulletin: A pump asked for most of its capacity cavitates at its inlet.
+Feed Pump FP-1 | prone_to | Micro-cavitation | Vendor bulletin: FP-1 cavitates when its inlet seal wears, and when the feed it is asked for crowds its capacity.
+Pump overload | remedied_by | Feed concentration | Vendor bulletin: A more concentrated feed delivers the same glucose at a lower pump rate.
+Micro-cavitation | remedied_by | Pump seal replacement | Vendor bulletin: Cavitation from a worn inlet seal is fixed by replacing the seal.
+Feed concentration | prone_to | Pump overload | Vendor bulletin: A dilute feed at a high set-point asks the pump for most of its capacity.
+Heat load | causes | Chiller saturation | Vendor bulletin: When the heat outruns the chiller's capacity the reactor warms.
+Cold shift | prone_to | Chiller saturation | Vendor bulletin: A cold shift narrows the gap to the coolant and cuts the chiller's capacity just when the culture is densest.
+Chiller CH-1 | prone_to | Chiller saturation | Vendor bulletin: CH-1 has limited capacity, which falls as the set-point drops.
+Chiller saturation | causes | Temperature excursion | Vendor bulletin: A saturated chiller lets the reactor drift above its set-point.
+Chiller saturation | remedied_by | Cold shift | Vendor bulletin: A less severe cold shift keeps more of the chiller's capacity.
+Chiller saturation | remedied_by | Feed set-point | Vendor bulletin: A lower feed set-point means less biomass and less heat.
+Liquid Handler LH-1 | prone_to | Worn pipette tips | Vendor bulletin: LH-1's tips wear with use.
+HPLC H-1 | prone_to | Column fouling | Vendor bulletin: The column fouls with host-cell protein over successive injections.
+Column fouling | causes | Retention time drift | Vendor bulletin: A fouling column shifts retention time later.
+Respiratory quotient | indicates | Acetate overflow | Vendor bulletin: A respiratory quotient above one means carbon is leaving as acid as well as CO2 from oxygen burned.
+Chiller load | indicates | Chiller saturation | Vendor bulletin: A chiller load near its ceiling means the heat is outrunning the cooling.
+Pressure ripple | indicates | Micro-cavitation | Vendor bulletin: A ripple on the feed line is the signature of a cavitating pump.
+Dispense CV | indicates | Pipetting error | Vendor bulletin: A rising dispense CV is the handler losing precision.
+Retention time | indicates | Column fouling | Vendor bulletin: Drift in retention time is the column fouling.

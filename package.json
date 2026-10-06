@@ -1,0 +1,25 @@
+{
+	"name": "autolab",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"description": "A synthetic biotech lab that streams its instruments live, and a research loop that tunes its fermentation protocol. Synthetic: no real lab, strain or product.",
+	"scripts": {
+		"setup": "node tools/campaign.mjs && node tools/screen.mjs --history",
+		"screen": "node tools/screen.mjs",
+		"query": "node tools/query.mjs",
+		"experiment": "node tools/experiment.mjs",
+		"trial": "node tools/trial.mjs",
+		"auto": "node tools/auto.mjs",
+		"report": "node tools/report.mjs",
+		"propose": "node tools/propose.mjs",
+		"approve": "node tools/approve.mjs",
+		"outcome": "node tools/outcome.mjs",
+		"campaign": "node tools/campaign.mjs",
+		"lab": "node daemon/lab-daemon.mjs",
+		"test": "node --test \"test/*.test.mjs\""
+	},
+	"engines": {
+		"node": ">=22"
+	}
+}

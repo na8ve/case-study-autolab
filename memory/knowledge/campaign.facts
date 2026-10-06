@@ -1,0 +1,39 @@
+# The binder campaign: what is sought, and what it is made of (synthetic).
+Kinase TK-7 | has | IsKinase | Kinase TK-7 is the target of this campaign: an enzyme the binder is meant to inhibit.
+Kinase TK-3 | has | IsKinase | Kinase TK-3 is the counter-target: a close relative a candidate must not bind.
+Target profile | governs | Lead candidate | A lead candidate meets all four of the profile at once: binding, melting temperature, selectivity and soluble yield. The four limits are in lab/discovery.mjs, and nothing restates them.
+Target profile | governs | Dissociation constant | The profile sets how tightly a candidate must bind; a binder above that limit is not a candidate however good the rest of it is.
+Target profile | governs | Melting temperature | The profile sets how stable a candidate must be.
+Target profile | governs | Selectivity | The profile sets how much a candidate must prefer the target to the counter-target.
+Target profile | governs | Soluble yield | The profile sets the yield a candidate must reach, which is also the yield an assay needs.
+Plate budget | governs | Binding assay | A binding assay is a dose-response curve in replicate, so one plate holds few variants and choosing which is the decision that matters.
+Plate budget | governs | Thermal assay | A melt reads in three wells, so a whole library fits on one plate.
+Scaffold SC-0 | part_of | Binder campaign | Every variant in the campaign is the one scaffold with eight engineered positions varied.
+L-1 | part_of | Binder campaign | L-1 is the parent library: the scaffold with its eight positions varied broadly. L-1 is where the campaign started.
+L-2 | part_of | Binder campaign | L-2 is affinity-matured from the best of L-1, selected on binding alone. L-2 was selected on binding and nothing else.
+L-3 | part_of | Binder campaign | L-3 is the L-2 background carrying the position-7 substitution. L-3 was built to repair what L-2's maturation cost.
+L-2 | derived_from | L-1 | L-2 was built from the best binders of L-1.
+L-3 | derived_from | L-2 | L-3 is the L-2 background with one further change.
+L-2 | has | Affinity maturation | Every L-2 variant carries the matured binding loop.
+L-3 | has | Affinity maturation | L-3 keeps L-2's matured binding loop.
+L-3 | has | Position-7 substitution | Every L-3 variant carries the position-7 substitution, which is the only thing that separates it from L-2.
+pEX-01 | part_of | Binder campaign | pEX-01 is the standard vector, and the one every past round used. It leaves its purification tag on the construct.
+pEX-02 | part_of | Binder campaign | pEX-02 is secretes the construct and cleaves the tag, so a binding measurement from it reads true; it yields less.
+pEX-03 | part_of | Binder campaign | pEX-03 is carries a solubility fusion partner, cleaved after capture, and is assembled with a different enzyme from the others.
+pEX-04 | part_of | Binder campaign | pEX-04 is codon-optimised and the highest yielding; it is assembled with the same enzyme as pEX-01.
+pEX-01 | causes | Purification tag | A construct made in pEX-01 keeps its tag through the binding assay.
+pEX-04 | causes | Purification tag | A construct made in pEX-04 keeps its tag through the binding assay.
+pEX-02 | remedied_by | Overstated affinity | pEX-02 is the vector a borderline binder is confirmed in.
+pEX-03 | has | Solubility fusion | pEX-03 is the fusion vector.
+pEX-01 | prone_to | Cloning failure | pEX-01 is assembled with the enzyme whose site some constructs carry internally.
+pEX-04 | prone_to | Cloning failure | pEX-04 shares pEX-01's assembly enzyme, so a construct that fails in one fails in the other.
+pEX-02 | prone_to | Cloning failure | pEX-02 shares that assembly enzyme too.
+Binding assay | performed_on | Plate Reader PR-1 | Binding assay: the dose-response curves are read on the plate reader.
+Thermal assay | performed_on | Plate Reader PR-1 | Thermal assay: the melt curves are read on the plate reader.
+Counter-screen | performed_on | Plate Reader PR-1 | Counter-screen: the counter-target curves are read on the plate reader.
+Expression check | performed_on | Liquid Handler LH-1 | Expression check: the handler makes up and samples the expression blocks.
+Purification | performed_on | HPLC H-1 | Purification: the HPLC separates and quantifies what was made.
+Expression check | part_of | Binder campaign | Every variant is expressed before any other assay can be run on it.
+Dissociation constant | indicates | Binding | The dissociation constant is how tightly a variant holds the target; lower is tighter.
+Melting temperature | indicates | Stability | The melting temperature is where the fold comes apart; higher is more stable.
+Soluble yield | indicates | Expression | The soluble yield is how much usable protein the expression run gave.
